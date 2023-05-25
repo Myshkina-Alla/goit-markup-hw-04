@@ -149,6 +149,13 @@ img {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+.hero-container {
+  max-width: 1440px;
+  margin: 0 auto;
+  background-position: center;
+}
+
 .hero-title {
   font-size: 56px;
   line-height: 1.07;
@@ -192,7 +199,6 @@ img {
   display: flex;
   justify-content: center;
   gap: 24px;
-  margin-bottom: 8px;
 }
 
 .advantages-list-link {
@@ -203,6 +209,7 @@ img {
   height: 112px;
   border-radius: 4px;
   background-color: var(--backgrounds);
+  margin-bottom: 8px;
 }
 
 .activities-list {
@@ -211,9 +218,6 @@ img {
 }
 .active-list {
   flex-basis: calc((100% - 3 * 24px) / 4);
-}
-.activities-subtitle {
-  margin-bottom: 8px;
 }
 
 /* What are we doing */
@@ -291,12 +295,12 @@ img {
 
 /* Customers */
 
-.customers-title {
+.customers {
   padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .customers-list {
-  padding-bottom: 120px;
   display: flex;
   justify-content: center;
   gap: 24px;
@@ -333,7 +337,11 @@ img {
 
 .footer-container {
   display: flex;
-  gap: 120px;
+  align-items: baseline;
+}
+
+.footer-position {
+  margin-right: 120px;
 }
 
 .logo-studio-footer {
