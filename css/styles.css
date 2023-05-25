@@ -65,6 +65,8 @@ img {
 /* Header */
 .page-header {
   border-bottom: 1px solid var(--accent-color);
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 .header-container {
   display: flex;
@@ -146,14 +148,10 @@ img {
       rgba(46, 47, 66, 0.7)
     ),
     url(../images/bg-hero.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.hero-container {
   max-width: 1440px;
-  margin: 0 auto;
+  background-repeat: no-repeat;
   background-position: center;
+  background-size: cover;
 }
 
 .hero-title {
@@ -367,6 +365,10 @@ img {
   margin-bottom: 16px;
   color: var(--header-background);
   font-weight: 500;
+}
+
+.footer-social-list {
+  gap: 16px;
 }
 
 .footer-link:hover,
